@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "To Check The Mail",
+        "description": "",
+        "id": "google-app-testing;to-check-the-mail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4062389600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Must Launch the \"chrome\" Browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 22
+                }
+              ],
+              "location": "Googlestep.user_Must_Launch_the_Browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1067716900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Must Launch the \"https://www.google.co.in/\" Url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.co.in/",
+                  "offset": 22
+                }
+              ],
+              "location": "Googlestep.user_Must_Launch_the_Url(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Google App Testing",
+    "description": "",
+    "id": "google-app-testing",
+    "keyword": "Feature",
+    "uri": "C:/Users/preet/eclipse-workspace/Cucumber/src/test/java/com/feature/Google.feature"
+  }
+]
